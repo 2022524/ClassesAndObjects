@@ -4,6 +4,8 @@
  */
 package classesandobjects;
 
+import shapes.Triangle;
+
 /**
  *
  * @author tarqu
@@ -38,6 +40,12 @@ public class ClassesAndObjects {
         sideLengths[7] = 3;
         sideLengths[10] = 3;
         sideLengths[16] = 3;
+        
+        Person tarq = new Person();
+        tarq.favTriangle = tri5;
+        
+        
+        
     }
     
 }
